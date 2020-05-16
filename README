@@ -1,0 +1,14 @@
+1. MyGenInterface takes the 2 generic types K,V with the methods public K getKey(); and public V getValue();
+
+2. The class MyGenClass implements the MyGenInterface interface.
+	a. It has the attributes K key and V value that are inherited
+	b. It has a constructor that takes K key and V value that inputs and initializes the attributes.
+	
+3. The class MyRegularClass has a public static method that is called getSum
+	a. This takes the T generic class which can be children of the Number class
+	b. It takes 2 inputs of T inp1 and T inp2 and returns type T inp1
+	
+4. The class MainEntry has a static main method
+	a. The local variables, mgi1 and mgi2 are created
+	b. In the main method, a System.out statement prints the key and value of mgi1 and mgi2 instances
+	c. Also in main method, a System.out statement prints i1 and f1.
